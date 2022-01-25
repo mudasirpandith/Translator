@@ -32,9 +32,13 @@ export default function () {
           <>
             {" "}
             <div>
-              <button onClick={playAudio}>
-                <span>Play Audio</span>
-              </button>
+              {wordData.phonetics[0].audio ? (
+                <button onClick={playAudio}>
+                  <span>Play Audio</span>
+                </button>
+              ) : (
+                ""
+              )}{" "}
             </div>
             <h2>Word: {wordData.word} </h2>
             <p>Phonetic: {wordData.phonetic} </p>
