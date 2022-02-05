@@ -22,7 +22,7 @@ app.post("/getdata", (req, res) => {
     headers: {
       "content-type": "application/json",
       "x-rapidapi-host": "microsoft-translator-text.p.rapidapi.com",
-      "x-rapidapi-key": "-------------------------------------",
+      "x-rapidapi-key": process.env.API,
       useQueryString: true,
     },
     body: [{ Text: word }],
