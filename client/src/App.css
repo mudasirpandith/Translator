@@ -1,0 +1,15 @@
+.boxa {
+  background-color: rgb(235, 250, 235);
+  text-align: center;
+  padding-top: 20px;
+}
+.lan {
+  display: inline-block;
+  padding: 20px;
+  margin: 5px 10px;
+}
+.translated {
+  margin: 20px 10px;
+  border: solid 0.3px green;
+  padding: 20px;
+}
